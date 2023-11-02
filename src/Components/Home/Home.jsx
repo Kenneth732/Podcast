@@ -15,14 +15,19 @@ function Home() {
 
             <li className="list">
               <i class="fas fa-check-circle"></i>
-              <p>One click integrations, that work for you.</p>
+              <p>Just record and hit publish, it’s that simple.</p>
             </li>
 
             <li className="list">
               <i class="fas fa-check-circle"></i>
-              <p>One click integrations, that work for you.</p>
+              <p>Get weekly reports straight to your inbox with <span>key metrics.</span></p>
             </li>
           </ul>
+          <div className="buttons">
+            <a href="" className="home_btn">Get your free account</a>
+            <a href="" className="home_btn">See our solution</a>
+          </div>
+          <p className='desc'>30-day free trial. No card required.</p>
         </div>
 
         <div className="right_home">
