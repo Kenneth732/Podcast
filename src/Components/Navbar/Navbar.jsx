@@ -65,19 +65,19 @@ function Navbar() {
             </Link>
 
             <Link to="/service" className='li'>
-              <a href="">Services</a>
-            </Link>
-
-            <Link to="/about" className='li'>
               <a href="">About</a>
             </Link>
 
-            <Link to="/" className='li'>
-              <a href="">Work</a>
+            <Link to="/about" className='li'>
+              <a href="">Pricing</a>
             </Link>
 
             <Link to="/" className='li'>
-              <a href="">Case student</a>
+              <a href="">Contact</a>
+            </Link>
+
+            <Link to="/" className='li'>
+              <a href="">Pages</a>
             </Link>
 
             <Link to="/" className='li'>
