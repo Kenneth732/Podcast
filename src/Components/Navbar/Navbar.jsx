@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import './NavBar.css'
+import './Navbar.css'
 function Navbar() {
   const [menuActive, setMenuActive] = useState(false);
 
@@ -14,7 +14,7 @@ function Navbar() {
     <div>
       <div>
       <nav className='pc'>
-          <h1 className='logo'>Code Wise Studio</h1>
+        <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.d32faf19.png&w=360&q=75" className='logo' alt="" />
           {/* <div className="menu" onClick={toggleMenu}>
             <i className={`fas fa-bars ${menuActive ? 'active' : ''}`}></i>
           </div> */}
@@ -55,7 +55,7 @@ function Navbar() {
 
         {/* mobile */}
         <nav className='mobile'>
-          <h1 className='logo'>C W S</h1>
+          <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-icon.5363164c.png&w=256&q=75" alt="" className="small_logo" />
           <div className="menu" onClick={toggleMenu}>
             <i className={`fas fa-bars ${menuActive ? 'active' : ''}`}></i>
           </div>

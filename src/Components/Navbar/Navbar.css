@@ -8,12 +8,16 @@ nav{
     /* border: 3px solid #fff; */
     /* margin: 0 20%; */
     position: relative;
+    background-color: #FEF6E1;
 }
 
 .logo{
     color: #fff;
-    font-weight: 600;
-    
+    width: 140px;
+}
+
+.small_logo {
+  width: 40px;
 }
 
 nav ul .li{
@@ -24,7 +28,7 @@ nav ul .li{
 nav ul .li a{
     list-style: none;
     text-decoration: none;
-    color: #fff;
+    color: #334155;
     font-size: 18px;
     margin: 20px 30px;
 }
@@ -36,7 +40,7 @@ nav ul .li a{
     border-radius: 50px;
   }
 .fa-bars{
-    color: #fff;
+    color: #334155;
     font-size: 30px;
     font-weight: 600;
     display: none;
@@ -94,11 +98,12 @@ nav ul .li a{
   .mobile ul.active {
     display: block;
     top: 60%;
-    right: 2%;
+    right: 0%;
+    left: 0;
     position: absolute;
     background-color: transparent;
     backdrop-filter: blur(30px);
-    width: 300px;
+    width: 100%;
     padding: 20px 40px;
     border-radius: 10px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
