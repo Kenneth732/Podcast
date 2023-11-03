@@ -137,6 +137,7 @@ function Home() {
           </div>
           <div className="podcasting_card five">
             <div>
+              <i class="fas fa-chart-bar"></i>
               <h2>Key podcast metrics <br /> in real-time </h2>
               <p>Lorem ipsum dolor sit amet consequat <br /> facilisis consequat ultrices suspendisse <br /> faucibus mauris.</p>
             </div>
@@ -144,6 +145,7 @@ function Home() {
 
           <div className="podcasting_card six">
             <div>
+              <i class="fas fa-microphone-alt"></i>
               <h2>Crisp audio <br /> optimizations</h2>
               <p>Lorem ipsum dolor sit amet consequat <br /> facilisis consequat ultrices suspendisse <br /> faucibus mauris.</p>
             </div>
