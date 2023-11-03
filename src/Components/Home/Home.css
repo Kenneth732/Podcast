@@ -1,6 +1,12 @@
 .home_container {
     padding: 10px 7%;
     background-color: #FEF6E1;
+    margin-bottom: 100px;
+}
+
+.home_containers {
+    padding: 10px 7%;
+    margin-bottom: 100px;
 }
 
 .hero {
@@ -77,6 +83,7 @@
     font-weight: 600;
     font-weight: 600;
 }
+
 .msg {
     color: #64748b;
     letter-spacing: 1.2px;
@@ -101,11 +108,12 @@
         width: 100%;
 
     }
-    .left_home h1 br{
+
+    .left_home h1 br {
         display: none;
     }
-    
-    
+
+
 
     .left_home {
         width: 100%;
@@ -124,6 +132,7 @@
     .buttons {
         flex-direction: column;
     }
+
     .buttons .home_btn {
         width: 100%;
         text-align: center;
@@ -154,7 +163,7 @@
     gap: 10px;
 }
 
-.feature_media img{
+.feature_media img {
     /* width: ; */
 }
 
@@ -163,11 +172,11 @@
         flex-direction: column;
         gap: 30px;
     }
-    
-    .feature_media img{
+
+    .feature_media img {
         /* width: ; */
     }
-    
+
 }
 
 
@@ -175,7 +184,201 @@
 /* home_abouthome_about */
 
 .home_about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+.about_msg {
+    background-color: #f0f0f0;
+    /* Set the background color or other styling for the card */
+    padding: 200px 80px;
+    /* Add padding to the card for spacing */
+    border: 1px solid #eee;
+}
+
+.about_img {
+    position: relative;
+    /* margin-left: 30px; */
+}
+
+
+.about_img img {
+    width: 100%;
+}
+
+.about_msg h2 {
+    font-size: 48px !important;
+    margin: 0;
+    /* Remove default margin for h1 */
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.about_msg p {
+    font-size: 22px;
+    /* Adjust the font size as needed */
+    margin: 0;
+    /* Remove default margin for p */
+    letter-spacing: 2px;
+    line-height: 2;
+    margin-bottom: 30px !important;
+}
+
+.about_rate {
+    background: #edede8f2;
+    /* width: 50%; */
+    padding: 90px;
+    color: #f0f0f0;
+    position: absolute;
+    bottom: -100px;
+}
+
+.about_rates {
+    background: #edede8f2;
+    /* width: 50%; */
+    padding: 90px;
+    color: #f0f0f0;
+    right: 0;
+    position: absolute;
+    bottom: -100px;
+}
+
+.learn_btn {
+    padding: 20px;
+    border: #0f172a solid 1px;
+}
+
+
+
+
+.about_rate h2 {
+    font-size: 48px;
+    color: #0f172a;
+}
+
+.about_rate p {
+    letter-spacing: 1px;
+    color: #334155;
+}
+
+.about_rates h2 {
+    font-size: 48px;
+    color: #0f172a;
+}
+
+.about_rates p {
+    letter-spacing: 1px;
+    color: #334155;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .home_about {
+        /* margin-bottom: 30px !important; */
+    }
+
+    .about_msg {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .about_img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+    .about_image {
+        width: 100%;
+    }
+
+    .about_msg h2 {
+        font-size: 30px !important;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .about_msg p {
+        font-size: 22px;
+        /* Adjust the font size as needed */
+        margin: 0;
+        /* Remove default margin for p */
+        letter-spacing: 1px;
+        line-height: 1.2;
+    }
+
+    .about_rate {
+        background: #edede8f2;
+        /* width: 50%; */
+        padding: 48px;
+        color: #f0f0f0;
+        position: absolute;
+        bottom: -50px;
+    }
+.about_rates {
+    background: #edede8f2;
+    /* width: 50%; */
+    padding: 60px;
+    color: #f0f0f0;
+    right: 0;
+    position: absolute;
+    bottom: -100px;
+}
+
+    .about_rate h2 {
+        font-size: 48px;
+        color: #0f172a;
+    }
+
+    .about_rate p {
+        letter-spacing: 1px;
+        color: #334155;
+    }
+}
+
+
+
+/* /podcasting */
+
+/* podcasting */
+
+.podcasting {
+    text-align: center;
+    color: #0f172a;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.podcast_card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.podcasting_card {
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid #334155; */
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.podcast_card div h2 {
+    font-size: 40px;
 }

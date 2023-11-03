@@ -33,16 +33,16 @@ function Home() {
 
             <div className="creator-message">
               <div className="creator-pro">
-              <i class="fas fa-quote-left"></i>
-              <p className='msg'>Wavvy has taken the headache out of our podcast hosting, and <br /> allowed us to focus on what we love to do – record great content, <br /> and grow a loyal audience.</p>
+                <i class="fas fa-quote-left"></i>
+                <p className='msg'>Wavvy has taken the headache out of our podcast hosting, and <br /> allowed us to focus on what we love to do – record great content, <br /> and grow a loyal audience.</p>
 
-              <div className="pro-link">
-                <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-01.19a82b70.jpg&w=64&q=75" alt="" />
-                <div>
-                  <h2>Courtland Allen</h2>
-                  <p>Indie Hackers Podcast</p>
+                <div className="pro-link">
+                  <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-01.19a82b70.jpg&w=64&q=75" alt="" />
+                  <div>
+                    <h2>Courtland Allen</h2>
+                    <p>Indie Hackers Podcast</p>
+                  </div>
                 </div>
-              </div>
               </div>
             </div>
           </div>
@@ -53,19 +53,19 @@ function Home() {
         </div>
 
         <div className="featured">
-        <div className="title"> AS FEATURED IN</div>
+          <div className="title"> AS FEATURED IN</div>
 
-        <div className="feature_media">
-          <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/static/media/buzzfeed.910ed4f7.svg" alt="" />
-          <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/static/media/daily-news.07f63296.svg" alt="" />
-          <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/static/media/entrepreneur.41efb504.svg" alt="" />
-          <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/static/media/quartz.84bd5564.svg" alt="" />
-          <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/static/media/wired.8d4051e0.svg" alt="" />
+          <div className="feature_media">
+            <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/static/media/buzzfeed.910ed4f7.svg" alt="" />
+            <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/static/media/daily-news.07f63296.svg" alt="" />
+            <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/static/media/entrepreneur.41efb504.svg" alt="" />
+            <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/static/media/quartz.84bd5564.svg" alt="" />
+            <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/static/media/wired.8d4051e0.svg" alt="" />
+          </div>
         </div>
       </div>
-      </div>
 
-      <div className="home_container">
+      <div className="home_containers">
         <div className="home_about">
           <div className="about_img">
             <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffeature-image-01.4ee2ebf6.jpg&w=640&q=75" alt="" className='about_image' />
@@ -78,6 +78,99 @@ function Home() {
           <div className="about_msg">
             <h2>Never worry about <br /> sound quality again</h2>
             <p>Lorem ipsum dolor sit amet orci aliquam porta adipiscing <br /> elementum purus netus laoreet pulvinar. <br /> Vestibulum platea iaculis eu ac netus lobortis porta sodales urna <br />mollis ac. Elit viverra magna euismod aenean diam <br /> ullamcorper eu nec venenatis. Eleifend lacinia luctus <br /> sagittis hendrerit habitasse cras dapibus.</p>
+
+            <a href="https://" className="learn_btn">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <div className="home_containers">
+        <div className="home_about">
+          <div className="about_msg">
+            <h2>Quick and easy <br /> podcasting setups </h2>
+            <p>Lorem ipsum dolor sit amet orci aliquam porta adipiscing <br /> elementum purus netus laoreet pulvinar. <br /> Vestibulum platea iaculis eu ac netus lobortis porta sodales urna <br />mollis ac. Elit viverra magna euismod aenean diam <br /> ullamcorper eu nec venenatis. Eleifend lacinia luctus <br /> sagittis hendrerit habitasse cras dapibus.</p>
+
+            <a href="https://" className="learn_btn">Learn more</a>
+          </div>
+
+          <div className="about_img">
+            <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffeature-image-02.18921184.jpg&w=640&q=75" alt="" className='about_image' />
+            <div className="about_rates">
+              <h2>3m+</h2>
+              <p>Listeners across podcasts<br />using Waves</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="home_container">
+        <h1 className='podcasting'>Professional podcasting <br /> without the hassle</h1>
+
+        <div className="podcast_card">
+          <div className="podcasting_card one">
+            <div>
+              <i class="fab fa-youtube"></i>
+              <h2>Create clips with <br /> ease</h2>
+              <p>Lorem ipsum dolor sit amet consequat <br /> facilisis consequat ultrices suspendisse <br /> faucibus mauris.</p>
+            </div>
+          </div>
+          <div className="podcasting_card two">
+            <div>
+              <i class="fas fa-cloud-upload-alt"></i>
+              <h2>Cloud hosting and <br /> storage</h2>
+              <p>Lorem ipsum dolor sit amet consequat <br /> facilisis consequat ultrices suspendisse <br /> faucibus mauris.</p>
+            </div>
+          </div>
+          <div className="podcasting_card three">
+            <div>
+              <i class="fas fa-microchip"></i>
+              <h2>Automatic episode <br /> transcripts </h2>
+              <p>Lorem ipsum dolor sit amet consequat <br /> facilisis consequat ultrices suspendisse <br /> faucibus mauris.</p>
+            </div>
+          </div>
+          <div className="podcasting_card four">
+            <div>
+              <i class="fas fa-edit"></i>
+              <h2>World class editing <br /> software </h2>
+              <p>Lorem ipsum dolor sit amet consequat <br /> facilisis consequat ultrices suspendisse <br /> faucibus mauris.</p>
+            </div>
+          </div>
+          <div className="podcasting_card five">
+            <div>
+              <h2>Key podcast metrics <br /> in real-time </h2>
+              <p>Lorem ipsum dolor sit amet consequat <br /> facilisis consequat ultrices suspendisse <br /> faucibus mauris.</p>
+            </div>
+          </div>
+
+          <div className="podcasting_card six">
+            <div>
+              <h2>Crisp audio <br /> optimizations</h2>
+              <p>Lorem ipsum dolor sit amet consequat <br /> facilisis consequat ultrices suspendisse <br /> faucibus mauris.</p>
+            </div>
+          </div>
+
+          <div className="podcasting_card seven">
+            <div>
+              <h2>Create clips with <br /> ease</h2>
+              <p>Lorem ipsum dolor sit amet consequat <br /> facilisis consequat ultrices suspendisse <br /> faucibus mauris.</p>
+            </div>
+          </div>
+  
+          <div className="podcasting_card eight">
+            <div>
+              <h2>Create clips with <br /> ease</h2>
+              <p>Lorem ipsum dolor sit amet consequat <br /> facilisis consequat ultrices suspendisse <br /> faucibus mauris.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="wavvy">
+        <div className="wavvy-card">
+          <h1>How Wavvy works</h1>
+          <div className="wavvy_description"></div>
+          <div className="wavvy_img">
+            <img src="" alt="" />
           </div>
         </div>
       </div>

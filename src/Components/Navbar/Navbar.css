@@ -1,15 +1,16 @@
 
-
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 10%;
+    padding: 15px 10%;
     /* border: 3px solid #fff; */
     /* margin: 0 20%; */
     position: relative;
     background-color: #FEF6E1;
 }
+
+
 
 .logo{
     color: #fff;
@@ -33,12 +34,15 @@ nav ul .li a{
     margin: 20px 30px;
 }
 
- .btn{
-    padding: 10px 30px;
-    background: #fff;
-    color: #000 !important;
-    border-radius: 50px;
+ .btn-form{
+  padding: 20px;
+  background: #334155;
+  color: #fff !important;
+  border-radius: 5px;
   }
+
+
+
 .fa-bars{
     color: #334155;
     font-size: 30px;

@@ -41,7 +41,7 @@ function Navbar() {
             </Link>
 
             <Link to="/" className='li'>
-              <a href="" className='btn'>Let's talk</a>
+              <a href="" className='btn-form'>Let's talk</a>
             </Link>
 
             {/* <li>
