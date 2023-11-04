@@ -24,20 +24,20 @@ function Navbar() {
               <a href="">Home</a>
             </Link>
 
-            <Link to="/service" className='li'>
-              <a href="">Services</a>
-            </Link>
-
             <Link to="/about" className='li'>
               <a href="">About</a>
             </Link>
 
-            <Link to="/" className='li'>
-              <a href="">Work</a>
+            <Link to="/pricing" className='li'>
+              <a href="">Pricing</a>
             </Link>
 
-            <Link to="/" className='li'>
-              <a href="">Case student</a>
+            <Link to="/contact" className='li'>
+              <a href="">Contact</a>
+            </Link>
+
+            <Link to="/page" className='li'>
+              <a href="">Page</a>
             </Link>
 
             <Link to="/" className='li'>

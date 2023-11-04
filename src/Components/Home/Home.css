@@ -9,6 +9,17 @@
     margin-bottom: 100px;
 }
 
+.str_pod {
+    background-color: #FEF6E1;
+    padding: 10px 7%;
+    /* margin-bottom: 100px; */
+}
+
+.hero_fetures {
+    padding: 10px 7%;
+    margin-bottom: 100px;
+}
+
 .hero {
     width: 100%;
     display: flex;
@@ -17,7 +28,10 @@
     justify-content: space-between;
 }
 
-.left_home {}
+.left_home {
+    /* border: #0f172a solid; */
+    width: 50%;
+}
 
 .left_home h1 {
     color: #0f172a;
@@ -25,7 +39,9 @@
     font-weight: 600;
 }
 
-.right_home {}
+.right_home {
+    width: 50%;
+}
 
 
 .home_btn {
@@ -92,6 +108,7 @@
 
 .profile {
     width: 100%;
+    object-fit: cover;
     margin-bottom: 100px;
 }
 
@@ -381,4 +398,175 @@
 
 .podcast_card div h2 {
     font-size: 40px;
+}
+
+
+
+/* wavvy-card */
+
+/* wavvy-card */
+
+.wavvy {
+    background: linear-gradient(to right, #334155, rgb(167, 167, 175));
+}
+
+.wavvy-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wavvy h1 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+
+.wavvy_description {
+    width: 50%;
+    margin: 20px 0 !important;
+    padding-left: 100px;
+}
+
+.menu_down {
+    margin: 40px 0;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.menu_down hr {
+    width: 100%;
+}
+
+.link_menu {
+    margin: 40px 0 !important;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+}
+
+
+strong {
+    font-size: 40px;
+    font-weight: 800;
+    gap: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.wavvy_img {
+    /* border: #0f172a solid; */
+    width: 40%;
+}
+
+.wavvy_img img {
+    width: 100%;
+    flex: 1;
+    text-align: right;
+    float: right;
+}
+
+
+
+
+/* pod_card */
+
+/* pod_card */
+
+.pods_container h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.pod_content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.parent_pod {
+    margin-bottom: 20px;
+    height: 100% !important;
+}
+
+
+.parent_pod .pd{
+    margin-bottom: 10% !important;
+}
+.pod_station {
+    margin-bottom: 30px;
+}
+
+.pod_card {
+    width: 500px;
+    height: 300px;
+    background: #f7f7f5;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.pod_card i {
+    position: absolute;
+    font-size: 50px;
+    opacity: .4;
+    color: #9e9e96;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 768px) {
+    .parent_pod{
+        transition: .5s ease-in-out;
+        width: 100%;
+    }
+    .pod_card {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+.str_pod .str_pod_card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    height: 60vh;
+    padding: 40px 0;
+}
+
+.str_pod .str_pod_card .str_card_infor {
+    padding: 0px 48px 0px 0px;
+}
+
+.str_pod .str_pod_card .str_card_infor h1 {
+    font-size: 68px;
+    font-weight: 600;
+    color: #0f172a;
+    line-height: 1;
+}
+
+.str_pod .str_pod_card .str_card_infor p {
+    margin: 34px 0px 30px;
+    /* margin-bottom: 30px; */
+    color: #334155;
+    font-size: 24px;
+}
+
+.str_card_img {
+    /* border: 2px solid; */
+    width: 100%;
+}
+.str_card_img img {
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
 }

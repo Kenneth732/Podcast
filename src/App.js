@@ -13,6 +13,7 @@ function App() {
     <div className="App-container">
       <BrowserRouter>
         <Navbar />
+        <hr className='line_th' />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />

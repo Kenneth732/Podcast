@@ -1,5 +1,7 @@
 import React from 'react'
 import './Home.css'
+import Pod from '../Assets/pi1.jpg'
+import P1 from '../Assets/p1.jpg'
 
 function Home() {
   return (
@@ -48,10 +50,13 @@ function Home() {
           </div>
 
           <div className="right_home">
-            <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome-hero.398a4a99.jpg&w=640&q=75" className='profile' alt="podcast profile" />
+            {/* <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome-hero.398a4a99.jpg&w=640&q=75" className='profile' alt="podcast profile" /> */}
+            <img src={P1} className='profile' alt="podcast profile" />
           </div>
         </div>
 
+      </div>
+      <div className="hero_fetures">
         <div className="featured">
           <div className="title"> AS FEATURED IN</div>
 
@@ -106,7 +111,40 @@ function Home() {
       <div className="home_container">
         <h1 className='podcasting'>Professional podcasting <br /> without the hassle</h1>
 
-        <div className="podcast_card">
+        <section class="mx-auto flex max-w-lg flex-col px-4 py-10 lg:max-w-screen-xl lg:flex-row">
+          <div class="max-w-md pr-20 lg:pt-28">
+            <img src="https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/601074ed0f05cd25097215a4_6002086f72b7277e1f01d682_ryan-morrison-illustration-1.png" alt="" />
+          </div>
+          <div class="">
+            <div class="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-indigo-600 text-white shadow-lg shadow-indigo-600/20">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z" />
+              </svg>
+            </div>
+            <h2 class="mb-10 max-w-lg text-4xl font-bold leading-snug lg:text-5xl lg:leading-snug">A <span class="text-indigo-600">Professional</span> podcasting  without the hassle</h2>
+            <div class="grid gap-y-12 gap-x-8 lg:grid-cols-2">
+              <div>
+                <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Create clips with ease</p>
+                <p class="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
+              </div>
+              <div>
+                <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Cloud hosting and storage</p>
+                <p class="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
+              </div>
+              <div>
+                <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Automatic episode transcripts</p>
+                <p class="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
+              </div>
+              <div>
+                <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">World class editing software</p>
+                <p class="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        {/* <div className="podcast_card">
           <div className="podcasting_card one">
             <div>
               <i class="fab fa-youtube"></i>
@@ -164,16 +202,139 @@ function Home() {
               <p>Lorem ipsum dolor sit amet consequat <br /> facilisis consequat ultrices suspendisse <br /> faucibus mauris.</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="wavvy">
         <div className="wavvy-card">
-          <h1>How Wavvy works</h1>
-          <div className="wavvy_description"></div>
-          <div className="wavvy_img">
-            <img src="" alt="" />
+          <div className="wavvy_description">
+            <ul className="menu_down">
+              <h1>How Wavvy works</h1>
+              <li className="link_menu"><strong>01</strong> Sign up in a few minutes</li>
+              <hr />
+
+              <li className="link_menu"><strong>02</strong> Migrate episodes with a few click</li>
+              <hr />
+
+              <li className="link_menu"><strong>03</strong> Your account is open; you can start recording and leveraging our platform</li>
+              <hr />
+            </ul>
           </div>
+          <div className="wavvy_img">
+            <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprocess.a9338c8e.jpg&w=640&q=75" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div className="pods_container">
+        <h2>See what podcasters <br /> have to say about us</h2>
+
+        <div className="pod_content">
+          <div className="parent_pod">
+            <div className="pod_card pod">
+              <div className="pod_station">
+                <img src="" alt="" />
+                <h3>Tim Ferriss</h3>
+                <p>The Tim Ferriss Show</p>
+              </div>
+              <i class="fas fa-quote-left"></i>
+              <p>
+                We took our time to evaluate various options before choosing Wavvy, and we are SO glad that we did. The features are easy to use, and their customer service team is friendly and helpful! We highly recommend them for podcast hosting.
+              </p>
+            </div>
+
+            <div className="pod_card pod">
+              <div className="pod_station">
+                <img src="" alt="" />
+                <h3>Lex Fridman</h3>
+                <p>Lex Fridman Podcast </p>
+              </div>
+              <i class="fas fa-quote-left"></i>
+              <p>
+                We're a rapidly growing podcast, and need a reliable podcast host that can scale with us. Wavvy's speed, ease of use, and flexibility have allowed us to dHctZ3Jvdw our audience more quickly than ever before. We love Wavvy, and would recommend it to any podcaster out there.
+              </p>
+            </div>
+          </div>
+
+          <div className="parent_pod px">
+            <div className="pod_card pd">
+              <div className="pod_station">
+                <img src="" alt="" />
+                <h3>Eric Weinstein</h3>
+                <p>The Portal </p>
+              </div>
+              <i class="fas fa-quote-left"></i>
+              <p>
+                We have been really happy with Wavvy's customer service, and the pricing is competitive with other podcast hosting companies. This is a great service for anyone looking to host a podcast or audio blog.
+              </p>
+            </div>
+
+            <div className="pod_card pd">
+              <div className="pod_station">
+                <img src="" alt="" />
+                <h3>Eric Weinstein</h3>
+                <p>The Portal </p>
+              </div>
+              <i class="fas fa-quote-left"></i>
+              <p>
+                We have been really happy with Wavvy's customer service, and the pricing is competitive with other podcast hosting companies. This is a great service for anyone looking to host a podcast or audio blog.
+              </p>
+            </div>
+          </div>
+
+          <div className="parent_pod">
+            <div className="pod_card">
+              <div className="pod_station">
+                <img src="" alt="" />
+                <h3>Eric Weinstein</h3>
+                <p>The Portal </p>
+              </div>
+              <i class="fas fa-quote-left"></i>
+              <p>
+                We have been really happy with Wavvy's customer service, and the pricing is competitive with other podcast hosting companies. This is a great service for anyone looking to host a podcast or audio blog.
+              </p>
+            </div>
+
+            <div className="pod_card">
+              <div className="pod_station">
+                <img src="" alt="" />
+                <h3>Eric Weinstein</h3>
+                <p>The Portal </p>
+              </div>
+              <i class="fas fa-quote-left"></i>
+              <p>
+                We have been really happy with Wavvy's customer service, and the pricing is competitive with other podcast hosting companies. This is a great service for anyone looking to host a podcast or audio blog.
+              </p>
+            </div>
+          </div>
+
+          <div className="parent_pod px">
+            <div className="pod_card pd">
+              <div className="pod_station">
+                <img src="" alt="" />
+                <h3>Eric Weinstein</h3>
+                <p>The Portal </p>
+              </div>
+              <i class="fas fa-quote-left"></i>
+              <p>
+                We have been really happy with Wavvy's customer service, and the pricing is competitive with other podcast hosting companies. This is a great service for anyone looking to host a podcast or audio blog.
+              </p>
+            </div>
+
+            <div className="pod_card pd">
+              <div className="pod_station">
+                <img src="" alt="" />
+                <h3>Eric Weinstein</h3>
+                <p>The Portal </p>
+              </div>
+              <i class="fas fa-quote-left"></i>
+              <p>
+                We have been really happy with Wavvy's customer service, and the pricing is competitive with other podcast hosting companies. This is a great service for anyone looking to host a podcast or audio blog.
+              </p>
+            </div>
+          </div>
+
+          {/*  */}
         </div>
       </div>
 
@@ -205,7 +366,7 @@ function Home() {
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
               </svg>
               <div class="relative ml-4 cursor-pointer select-none items-center py-4 pr-12">
-                <h3 class="text-sm text-gray-600 lg:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit?</h3>
+                <h3 class="text-sm text-gray-600 lg:text-base">Do I need specific tech?</h3>
               </div>
               <div class="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96">
                 <div class="p-5">
@@ -222,7 +383,7 @@ function Home() {
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
               </svg>
               <div class="relative ml-4 cursor-pointer select-none items-center py-4 pr-12">
-                <h3 class="text-sm text-gray-600 lg:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio.?</h3>
+                <h3 class="text-sm text-gray-600 lg:text-base">Where are my podcasts stored?</h3>
               </div>
               <div class="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96">
                 <div class="p-5">
@@ -239,7 +400,75 @@ function Home() {
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
               </svg>
               <div class="relative ml-4 cursor-pointer select-none items-center py-4 pr-12">
-                <h3 class="text-sm text-gray-600 lg:text-base">Lorem ipsum dolor sit amet.?</h3>
+                <h3 class="text-sm text-gray-600 lg:text-base">What if I want to move to a different platform later?</h3>
+              </div>
+              <div class="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96">
+                <div class="p-5">
+                  <p class="text-sm">Lorem ipsum, <b>dolor sit amet</b> consectetur adipisicing elit. Adipisci eligendi, recusandae voluptatum distinctio facilis necessitatibus aperiam ut? Dolor mollitia modi aliquam, non sint at reprehenderit commodi dignissimos quo unde asperiores officiis quos laboriosam similique nihil.</p>
+                </div>
+              </div>
+            </label>
+          </li>
+
+          <li class="text-left">
+            <label for="accordion-4" class="relative flex flex-col rounded-md border border-gray-100 shadow-md">
+              <input class="peer hidden" type="checkbox" id="accordion-4" />
+              <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-0 top-4 ml-auto mr-5 h-4 text-gray-500 transition peer-checked:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+              <div class="relative ml-4 cursor-pointer select-none items-center py-4 pr-12">
+                <h3 class="text-sm text-gray-600 lg:text-base">Are larger podcasts more expensive?</h3>
+              </div>
+              <div class="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96">
+                <div class="p-5">
+                  <p class="text-sm">Lorem ipsum, <b>dolor sit amet</b> consectetur adipisicing elit. Adipisci eligendi, recusandae voluptatum distinctio facilis necessitatibus aperiam ut? Dolor mollitia modi aliquam, non sint at reprehenderit commodi dignissimos quo unde asperiores officiis quos laboriosam similique nihil.</p>
+                </div>
+              </div>
+            </label>
+          </li>
+
+          <li class="text-left">
+            <label for="accordion-4" class="relative flex flex-col rounded-md border border-gray-100 shadow-md">
+              <input class="peer hidden" type="checkbox" id="accordion-4" />
+              <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-0 top-4 ml-auto mr-5 h-4 text-gray-500 transition peer-checked:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+              <div class="relative ml-4 cursor-pointer select-none items-center py-4 pr-12">
+                <h3 class="text-sm text-gray-600 lg:text-base">What if I don’t do video?</h3>
+              </div>
+              <div class="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96">
+                <div class="p-5">
+                  <p class="text-sm">Lorem ipsum, <b>dolor sit amet</b> consectetur adipisicing elit. Adipisci eligendi, recusandae voluptatum distinctio facilis necessitatibus aperiam ut? Dolor mollitia modi aliquam, non sint at reprehenderit commodi dignissimos quo unde asperiores officiis quos laboriosam similique nihil.</p>
+                </div>
+              </div>
+            </label>
+          </li>
+
+          <li class="text-left">
+            <label for="accordion-4" class="relative flex flex-col rounded-md border border-gray-100 shadow-md">
+              <input class="peer hidden" type="checkbox" id="accordion-4" />
+              <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-0 top-4 ml-auto mr-5 h-4 text-gray-500 transition peer-checked:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+              <div class="relative ml-4 cursor-pointer select-none items-center py-4 pr-12">
+                <h3 class="text-sm text-gray-600 lg:text-base">How does automatic transcription work?</h3>
+              </div>
+              <div class="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96">
+                <div class="p-5">
+                  <p class="text-sm">Lorem ipsum, <b>dolor sit amet</b> consectetur adipisicing elit. Adipisci eligendi, recusandae voluptatum distinctio facilis necessitatibus aperiam ut? Dolor mollitia modi aliquam, non sint at reprehenderit commodi dignissimos quo unde asperiores officiis quos laboriosam similique nihil.</p>
+                </div>
+              </div>
+            </label>
+          </li>
+
+          <li class="text-left">
+            <label for="accordion-4" class="relative flex flex-col rounded-md border border-gray-100 shadow-md">
+              <input class="peer hidden" type="checkbox" id="accordion-4" />
+              <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-0 top-4 ml-auto mr-5 h-4 text-gray-500 transition peer-checked:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+              <div class="relative ml-4 cursor-pointer select-none items-center py-4 pr-12">
+                <h3 class="text-sm text-gray-600 lg:text-base">What if I decide to cancel in the future?</h3>
               </div>
               <div class="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96">
                 <div class="p-5">
@@ -250,10 +479,25 @@ function Home() {
           </li>
         </ul>
         <div class="mt-20 flex justify-center">
-          <a class="inline-flex cursor-pointer rounded-lg bg-blue-500 py-3 px-5 text-lg text-white" href="#">Still have questions?</a>
+          <a class="inline-flex cursor-pointer rounded-lg bg-blue-900 py-3 px-5 text-lg text-white" href="#">Still have questions?</a>
         </div>
       </div>
 
+      <div className="str_pod">
+        <div className="str_pod_card">
+          <div className="str_card_infor">
+            <h1>Start growing <br /> your podcast <br /> today</h1>
+            <p>
+            Lorem ipsum dolor sit amet porta augue quisque<br /> enim. Vel ornare fames mauris dictumst aliqua <br /> purus praesent quis ut eros laoreet odio
+            </p>
+            <a href="https://" className="home_btn">Get your free account</a>
+          </div>
+
+          <div className="str_card_img">
+            <img src={Pod} alt="" />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
