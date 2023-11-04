@@ -1,0 +1,517 @@
+.line_th {
+    width: 70%;
+    text-align: center;
+    margin-inline: auto;
+    /* margin-top: 20px; */
+}
+
+.about_container {
+    padding: 10px 7%;
+    background-color: #FEF6E1;
+    margin-bottom: 100px;
+}
+
+.about_content_infor {
+    width: 100%;
+    text-align: center;
+}
+
+.about_wavvy  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    margin-top: 50px;
+}
+
+.about_wavvy hr {
+    height: 4px;
+    width: 3%;
+    background: #78350fb3 !important;
+}
+
+
+.about_wavvy h3 {
+    color: #78350fb3;
+    font-size: 20px;
+    margin: 0px 0px 0px 14px;
+}
+
+
+.sub {
+    color: #0f172a;
+    margin: 24px 0px 0px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+    .sub {
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images .card_x {
+    list-style: none;
+    margin-bottom: 14px;
+    position: relative;
+    display: flex; /* add new*/
+    overflow: hidden; /* added new */
+}
+
+.image-gallery .images {
+    gap: 15px;
+    margin-top: 40px;
+    /* max-width: 90%; */
+    columns: 5 340px;
+}
+
+.card_x img{
+    width: 100%;
+}
+
+
+.load_more {
+    margin: 50px 0;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 12px 27px;
+    background: #0f172a;
+}
+
+.about_details {
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    transition: .4s ease-in-out;
+}
+
+.card_x:hover .about_details {
+    bottom: 0;
+}
+
+.about_pod {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.about_pod i {
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+.about_pod span {
+    font-size: 1.05rem;
+}
+
+
+.about_details .load {
+    padding: 3px 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    background: #fff;
+}
+
+
+/* about_hist */
+/* about_hist */
+
+.about_hist {
+    background-color: #fff;
+}
+
+.sub_txt {
+    font-weight: 800;
+}
+
+.about_txt_info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.txt_card {
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.txt_card p {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.1px;
+}
+
+.mv {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .txt_card {
+        width: 100%;
+        padding: 2px;
+    }
+    .txt_card p {
+        width: 100%;
+    }
+}
+
+.about_hist_img {
+    width: 100%;
+    height: 80vh;
+    background: url('../Assets/band.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.about_msg_text_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.about_msg_card {
+    margin-top: 100px;
+    padding: 30px 40px;
+    background: #FEF6E1;
+}
+
+
+.about_msg_card h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3.5px;
+}
+
+
+
+/* about_us_val */
+/* about_us_val */
+/* about_us_val */
+.about_us_val {
+    padding: 64px 7% 48px;
+    background-color: #334155;
+    margin-bottom: 100px;
+}
+
+.about_us_val h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about_us_cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.about_us_card {
+/* border: 2px solid red; */
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+gap: 10px;
+}
+
+.about_more_infor {
+    backdrop-filter: blur(40px);
+    padding: 26px;
+    width: 400px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: border 0.5s ease;
+    color: #fff;
+}
+
+.about_us_card .fas {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.about_more_infor {
+    padding: 10px;
+}
+
+.about_more_infor h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about_more_infor p{
+    letter-spacing: 1.4px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .txt_card {
+        width: 100%;
+        padding: 2px;
+    }
+    .txt_card p {
+        width: 100%;
+    }
+    .about_msg_card {
+        /* border: 2px solid red; */
+        margin: 0;
+        width: 100%;
+    }
+
+    .about_us_val h1 {
+        font-size: 40px;
+    }
+}
+
+
+
+/*  */
+/* .about_our_team */
+/* .about_our_team */
+/* .about_our_team */
+.about_our_team {
+    padding: 10px 7%;
+    background-color: #FEF6E1;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+
+.our_team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.our_team .about_wavvy hr{
+    width: 30%;
+    max-width: 100px;
+}
+
+.our_team_line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 20%;
+}
+
+.our_team_line hr {
+    height: 4px;
+    width: 20%;
+    background: #78350fb3 !important;
+}
+
+.our_team_line h3 {
+    font-size: 20px;
+    font-size: 28px;
+}
+
+.our_team_txt {
+    padding: 20px;
+}
+
+.our_team_txt h1 {
+    font-size: 40px;
+    color: #0f172a;
+    margin-bottom: 20px;
+    font-weight: 550;
+}
+
+.our_team_txt p {
+    font-size: 20px;
+    letter-spacing: 1.3px;
+}
+
+@media only screen and (max-width: 768px) {
+    .our_team_txt h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .our_team_line {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .our_team_line hr {
+        height: 4px;
+        width: 20%;
+        background: #78350fb3 !important;
+    }
+    
+}
+
+@media only screen and (max-width: 1250px) {
+
+    /* .about_hist_img {
+        background-image: none;
+    } */
+}
+
+@media only screen and (max-width: 1250px) {
+    .about_hist_img {
+        background-image: none;
+    }
+    
+    .our_team{
+        flex-direction: column;
+    }
+    .about_msg_text_card {
+        flex-direction: column;
+        /* display: none; */
+    }
+}
+
+.our_team_members {
+    width: 100%;
+    height: 60vh;
+    background: red;
+}
+
+.our_team_card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.about_our_team_img {
+    background: #fff;
+    width: 400px;
+    height: 400px;
+    overflow: hidden !important;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.about_our_team_img img {
+    width: 400px;
+    height: 330px;
+    margin-bottom: 10px !important;
+    object-fit: cover;
+}
+
+.our_team_mmO {
+    padding: 10px 20px;
+    /* border: #0f172a solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our_team_mmO h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #334155;
+}
+
+.postion {
+    background-color: #F7DFF5; 
+    color: #B22485;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+    .our_team_card {
+        flex-direction: column;
+    }
+    .about_our_team_img {
+        background: #fff;
+        width: 100%;
+    }
+    .about_our_team_img img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+
+
+/* about_invest */
+/* about_invest */
+/* about_invest */
+/* about_invest */
+
+.about_invest {
+    padding: 10px 7%;
+    background-color: #FFF;
+    margin-bottom: 100px;
+}
+
+.about_invest .about_invest_infor h1 {
+    font-size: 48px;
+    color: #0f172a;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.about_invest .about_invest_infor p {
+    font-size: 20px;
+    color: #334155;
+    text-align: center;
+}
+
+.about_investor_img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.about_investor_img .invest_card {
+    width: 250px;
+    height: 150px;
+    background: red;
+}
+
+.about_investor_img .invest_card img {
+    width: 100%;
+}
