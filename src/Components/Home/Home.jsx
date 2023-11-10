@@ -2,6 +2,14 @@ import React from 'react'
 import './Home.css'
 import Pod from '../Assets/pi1.jpg'
 import P1 from '../Assets/p1.jpg'
+import prod1 from '../../Components/podimg/image12.jpg'
+import prod2 from '../../Components/podimg/image13 (2).jpg'
+import prod3 from '../../Components/podimg/image14 (1).jpg'
+import prod4 from '../../Components/podimg/image16 (1).jpg'
+import prod5 from '../../Components/podimg/image17 (1).jpg'
+import prod6 from '../../Components/podimg/image18 (1).jpg'
+import prod7 from '../../Components/podimg/image12.jpg'
+import prod8 from '../../Components/podimg/image12.jpg'
 
 function Home() {
   return (
@@ -50,8 +58,8 @@ function Home() {
           </div>
 
           <div className="right_home">
-            {/* <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome-hero.398a4a99.jpg&w=640&q=75" className='profile' alt="podcast profile" /> */}
-            <img src={P1} className='profile' alt="podcast profile" />
+            <img src="https://wavvy-next-obfuscated-preview.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome-hero.398a4a99.jpg&w=640&q=75" className='profile' alt="podcast profile" />
+            {/* <img src={P1} className='profile' alt="podcast profile" /> */}
           </div>
         </div>
 
@@ -233,7 +241,7 @@ function Home() {
           <div className="parent_pod">
             <div className="pod_card pod">
               <div className="pod_station">
-                <img src="" alt="" />
+                <img src={prod1} alt="" />
                 <h3>Tim Ferriss</h3>
                 <p>The Tim Ferriss Show</p>
               </div>

@@ -30,7 +30,7 @@
 
 .left_home {
     /* border: #0f172a solid; */
-    width: 50%;
+    /* width: 50%; */
 }
 
 .left_home h1 {
@@ -40,7 +40,10 @@
 }
 
 .right_home {
-    width: 50%;
+    width: 40%;
+    /* border: #0f172a solid; */
+    display: flex;
+    position: relative;
 }
 
 
@@ -106,10 +109,18 @@
     line-height: 1.6;
 }
 
+/* .profile {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 100px;
+    flex: 1;
+} */
+
 .profile {
     width: 100%;
     object-fit: cover;
     margin-bottom: 100px;
+    flex: 1;
 }
 
 @media only screen and (max-width: 768px) {
@@ -473,7 +484,24 @@ strong {
 }
 
 
+@media only screen and (max-width: 768px) {
 
+    .wavvy_description {
+        flex-direction: column;
+
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    .menu_down {
+        flex-direction: column;
+
+        width: 100%;
+    }
+    .wavvy_img{
+        display: none;
+    }
+} 
 
 /* pod_card */
 
@@ -536,7 +564,7 @@ strong {
 
 .str_pod .str_pod_card {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
     height: 60vh;
     padding: 40px 0;
@@ -570,3 +598,53 @@ strong {
     cursor: pointer;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 1330px) {
+    .str_pod .str_pod_card {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1310px) {
+    .str_pod .str_pod_card {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1310px) {
+    .str_pod .str_pod_card {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1156px) {
+    .str_pod .str_pod_card {
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .str_pod .str_pod_card .str_card_infor h1 {
+        font-size: 48px;
+        font-weight: 600;
+        color: #0f172a;
+        line-height: 1;
+    }
+    
+    .str_pod .str_pod_card .str_card_infor p {
+        margin: 34px 0px 30px;
+        /* margin-bottom: 30px; */
+        color: #334155;
+        font-size: 24px;
+    }
+    
+    .str_card_img {
+        /* border: 2px solid; */
+        width: 100%;
+    }
+    .str_card_img img {
+        display: none;
+    }
+    
+} 

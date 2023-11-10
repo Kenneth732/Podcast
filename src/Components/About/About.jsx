@@ -45,6 +45,16 @@ function About() {
 
         <div className="image-gallery">
           <ul className="images">
+          <li className='card_x'>
+              <img src={C1} alt="" />
+              <div className="about_details">
+                <div className="about_pod">
+                  <i className="fas">🇨🇼</i>
+                  <span>Liz</span>
+                </div>
+                <button className='load'></button>
+              </div>
+            </li>
             <li className='card_x'>
               <img src={V1} alt="" />
               <div className="about_details">
@@ -56,11 +66,11 @@ function About() {
               </div>
             </li>
             <li className='card_x'>
-              <img src={C1} alt="" />
+              <img src={V2} alt="" />
               <div className="about_details">
                 <div className="about_pod">
-                  <i className="fas">🇨🇼</i>
-                  <span>Liz</span>
+                  <i className="fas"></i>
+                  <span>Aggy</span>
                 </div>
                 <button className='load'></button>
               </div>
@@ -76,21 +86,11 @@ function About() {
               </div>
             </li>
             <li className='card_x'>
-              <img src={V2} alt="" />
-              <div className="about_details">
-                <div className="about_pod">
-                  <i className="fas"></i>
-                  <span>Nina</span>
-                </div>
-                <button className='load'></button>
-              </div>
-            </li>
-            <li className='card_x'>
               <img src={V3} alt="" />
               <div className="about_details">
                 <div className="about_pod">
                   <i className="fas"></i>
-                  <span>Aggy</span>
+                  <span>Nina</span>
                 </div>
                 <button className='load'></button>
               </div>
@@ -106,21 +106,21 @@ function About() {
               </div>
             </li>
             <li className='card_x'>
-              <img src={V4} alt="" />
-              <div className="about_details">
-                <div className="about_pod">
-                  <i className="fas"></i>
-                  <span>Rufas</span>
-                </div>
-                <button className='load'></button>
-              </div>
-            </li>
-            <li className='card_x'>
               <img src={C4} alt="" />
               <div className="about_details">
                 <div className="about_pod">
                   <i className="fas"></i>
                   <span>Adrian</span>
+                </div>
+                <button className='load'></button>
+              </div>
+            </li>
+            <li className='card_x'>
+              <img src={V4} alt="" />
+              <div className="about_details">
+                <div className="about_pod">
+                  <i className="fas"></i>
+                  <span>Rufas</span>
                 </div>
                 <button className='load'></button>
               </div>
@@ -145,9 +145,9 @@ function About() {
                 <button className='load'></button>
               </div>
             </li>
-            {/* <li className='card_x'><img src={C6} alt="" /></li> */}
-            {/* <li className='card_x'><img src={V6} alt="" /></li>
-          <li className='card_x'><img src={C7} alt="" /></li> */}
+            <li className='card_x'><img src={C6} alt="" /></li>
+            <li className='card_x'><img src={V6} alt="" /></li>
+          {/* <li className='card_x'><img src={C7} alt="" /></li> */}
           </ul>
           <a href="/" className="load_more">Read Reviews</a>
         </div>
